@@ -9,8 +9,8 @@
         root{{namespace}}.{{internalNamespace}} = factory();
     }
 }(this, function () {
-    {{jade}}
-
+    var _ = require('underscore');
+    
     var {{internalNamespace}} = {};
 {{code}}
     return {{internalNamespace}};
